@@ -1,33 +1,33 @@
 # Grunt Project
 This is a simple Project using Grunt. It shows different Cities and Hotels.
 
-##Install
+## Install
     npm install
-##Start Grunt
+## Start Grunt
     grunt
     grunt serve    
     
-##Plugins
+## Plugins
 Different Grunt Plugins are used
 ###Concat
     grunt concat
-###Uglify
+### Uglify
     grunt uglify
-###CSSMin
+### CSSMin
     grunt cssmin
-###Less
+### Less
     grunt less
-###Watch
+### Watch
     grunt watch
-###Browsersync
+### Browsersync
     grunt browsersync
-###Zip
+### Zip
     grunt zip
 Creates a Zip File from different files
     
-###JsBeautify
+### JsBeautify
     grunt jsbeautifier
 Beautifies JS
-###HTMLLint
+### HTMLLint
     grunt htmllint
 Validates HTML
