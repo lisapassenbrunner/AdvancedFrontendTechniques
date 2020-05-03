@@ -9,7 +9,7 @@ This is a simple Project using Grunt. It shows different Cities and Hotels.
     
 ## Plugins
 Different Grunt Plugins are used
-###Concat
+### Concat
     grunt concat
 ### Uglify
     grunt uglify
