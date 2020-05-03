@@ -1,0 +1,170 @@
+@appColor: #20345a;
+@images : "/img";
+
+.font() {
+  //font-family: Open Sans, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.fontUpperCase() {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+body{
+  .font();
+  padding-bottom: 3em;
+  margin: auto;
+}
+
+#footertemplate{
+  position: fixed;
+  padding: .6em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  .fontUpperCase();
+}
+
+h2{
+  color: @appColor;
+  text-align: center;
+}
+
+#startpage{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.Button{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#languageMenu{
+  margin-bottom: 2em;
+}
+
+.logincontainer, #startpage_container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#footertemplate, #logoheader{
+  background-color: @appColor;
+  padding: 1em;
+  text-align: center;
+}
+
+#impressum{
+  color: white;
+}
+
+input{
+  margin-right: 0.2em;
+}
+
+#languageMenu{
+  margin-top: 2em;
+  text-align: center;
+}
+
+
+//CITIES
+
+#city_container, #hotel_container{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.cityCards, .cityCardsBig, .hotelCards, .hotelCardsBig{
+  border: 2px solid @appColor;
+  padding: 2em;
+  margin: 1em;
+}
+
+#startpageContent, .hotelsListView{
+  margin: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+a p b, b{
+  color: @appColor;
+}
+
+a p {
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.cityHeadline{
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+//cityDetail
+
+.cityImage, .hotelImage{
+  width: 100%;
+  min-width: 200px;
+  max-width: 700px;
+}
+
+.cityCardsBig, .hotelCardsBig{
+  margin-bottom: 3em;
+  min-width: 220px;
+  max-width: 750px;
+}
+
+//hotels
+
+.hotelDetails{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hotelInfos, .hotelAmenities{
+  margin: 1em 4em 1em 4em;
+}
+
+.hotelImage{
+  align-self: center;
+}
+.hotelImages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hotelCardsBig{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-gap: 1em;
+}
+
+.hotelDescription{
+  margin: 3em 3em 1em 3em;
+}
+
+.singleHotelImage{
+  margin: 1em;
+}
