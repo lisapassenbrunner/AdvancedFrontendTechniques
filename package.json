@@ -10,11 +10,13 @@
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-uglify-es": "^3.3.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-html": "^14.0.0",
     "grunt-jsbeautifier": "^0.2.13"
   },
   "dependencies": {
-    "grunt-zip": "^0.18.2"
+    "grunt-zip": "^0.18.2",
+    "uglify-es": "^3.3.9"
   }
 }

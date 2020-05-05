@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/cookie.min': ['js/cookie.js']
+                    'js/main.min': ['js/main.js'],
                 }
             }
         },
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
         watch: {
             scripts: {
                 files: ['js/*.js', 'js/classes/*.js', 'js/core/*.js', 'js/views/.*js', 'js/vendor/.*js'],
-                tasks: ['concat', 'uglify'],
+                tasks: ['concat', 'uglify-es'],
             },
             styles: {
                 files: ['css/less/*.less'],
@@ -82,7 +82,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-zip');
