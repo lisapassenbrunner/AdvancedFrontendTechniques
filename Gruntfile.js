@@ -60,7 +60,7 @@ module.exports = function(grunt) {
                 },
                 options: {
                     watchTask: true,
-                    proxy: "localhost:63342/AFT"
+                    proxy: "http://localhost/AFT/#/"
                 }
             }
         },
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         },
 
         htmllint: {
-            all: ['index.html']
+            src: ['index.html']
         },
 
         jsbeautifier: {
